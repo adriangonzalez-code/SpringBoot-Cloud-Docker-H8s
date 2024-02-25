@@ -8,10 +8,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/adriangonzalez-code/adriangonzalez-code-SpringBoot-Cloud-Docker-H8s
+          uri: https://github.com/adriangonzalez-code/SpringBoot-Cloud-Docker-H8s-SpringAppConfig
           clone-on-start: true
           default-label: master
-          basedir: SpringAppConfig
+#          basedir: SpringAppConfig
 
 #eureka:
 #  instance:
