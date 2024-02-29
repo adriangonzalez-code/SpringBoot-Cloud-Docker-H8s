@@ -1,7 +1,7 @@
 package com.driagon.microservices.app.externals.decoders;
 
 import com.driagon.microservices.app.exceptions.CustomException;
-import com.driagon.microservices.app.externals.response.ErrorResponse;
+import com.driagon.microservices.app.externals.responses.ErrorResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import feign.Response;
 import feign.codec.ErrorDecoder;

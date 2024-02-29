@@ -8,10 +8,10 @@ import lombok.*;
 @AllArgsConstructor
 @Builder
 @ToString
-public class OrderRequest {
+public class PaymentRequest {
 
-    private long productId;
-    private long totalAmount;
-    private long quantity;
+    private long orderId;
+    private long amount;
+    private String referenceNumber;
     private PaymentMode paymentMode;
 }

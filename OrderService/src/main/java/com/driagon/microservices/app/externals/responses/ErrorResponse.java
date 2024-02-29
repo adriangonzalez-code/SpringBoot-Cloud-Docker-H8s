@@ -1,4 +1,4 @@
-package com.driagon.microservices.app.externals.response;
+package com.driagon.microservices.app.externals.responses;
 
 import lombok.*;
 
