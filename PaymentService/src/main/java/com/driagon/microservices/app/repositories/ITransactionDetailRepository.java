@@ -5,5 +5,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ITransactionDetailRepository extends JpaRepository<TransactionDetail, Long> {
 
-
+    TransactionDetail findByOrderId(long orderId);
 }
